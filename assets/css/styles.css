@@ -1,21 +1,23 @@
  body{
     background:hsl(185, 41%, 84%);
  }
- 
- 
+
  .app-header{
    text-align: center;
    padding:20px;
-   margin:30px;
+   margin:50px;
  }
  
  .calc-container{
    background-color: #fff;
-   margin:150px;
+   margin:50px;
    border-radius:8px;
    width:50%;
    height:15%;
    display: flex;
+   position: relative;
+   top:-10px;
+   left:400px;
  }
 
 
