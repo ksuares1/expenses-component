@@ -1,5 +1,6 @@
  body{
     background:hsl(185, 41%, 84%);
+    font-size:24px;
  }
 
  .app-header{
@@ -13,11 +14,12 @@
    margin:50px;
    border-radius:8px;
    width:50%;
-   height:15%;
+   height:5%;
    display: flex;
    position: relative;
    top:-10px;
    left:400px;
+   padding-bottom:0px;
  }
 
 
@@ -25,24 +27,30 @@
    padding:10px;
  }
  
- .bill-info{
+ /* .bill-info{
    position:relative;
- }
+ } */
  
  .tip-calculations{
    position:relative;
    top:-220px;
    right:-500px;
-
+   background-color: hsl(183, 100%, 15%);
  }
  
  
+/* .button{
+   margin:100px;
+} */
  
  
+.person{
+   
+}
  
- 
- 
- 
+ .reset{
+   background-color:hsl(184, 14%, 56%);
+ }
  
  
  
