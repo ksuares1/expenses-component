@@ -4,7 +4,11 @@
  
  
  
- 
+ .calc-container{
+   background-color: #fff;
+   margin:200px;
+   border-radius:8px;
+ }
  
  
  
