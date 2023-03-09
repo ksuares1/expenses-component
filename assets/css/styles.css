@@ -25,8 +25,16 @@
    padding:10px;
  }
  
+ .bill-info{
+   position:relative;
+ }
  
- 
+ .tip-calculations{
+   position:relative;
+   top:-220px;
+   right:-500px;
+
+ }
  
  
  
