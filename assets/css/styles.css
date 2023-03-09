@@ -8,9 +8,13 @@
    background-color: #fff;
    margin:200px;
    border-radius:8px;
+   width:50%;
+   height:15%;
  }
  
- 
+ .bill{
+   padding:10px;
+ }
  
  
  
