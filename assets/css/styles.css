@@ -3,15 +3,22 @@
  }
  
  
+ .app-header{
+   text-align: center;
+   padding:20px;
+   margin:30px;
+ }
  
  .calc-container{
    background-color: #fff;
-   margin:200px;
+   margin:150px;
    border-radius:8px;
    width:50%;
    height:15%;
+   display: flex;
  }
- 
+
+
  .bill{
    padding:10px;
  }
