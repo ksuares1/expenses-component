@@ -16,8 +16,8 @@ body{
    background-color: #fff;
    margin:50px;
    border-radius:10px;
-   width:780px;
-   height:400px;
+   width:800px;
+   height:440px;
    display: flex;
    position: relative;
    top:-10px;
@@ -32,16 +32,20 @@ body{
    padding:5px;
  }
  
+ input{
+  margin:0 auto;
+ }
  
  .tip-calculations{
-   position:relative;
-   top:-420px;
-   right:-500px;
-   left:450px;
-   background-color: hsl(183, 100%, 15%);
-   width:315px;
-   height:360px;
-   border-radius:8px;
+    position: relative;
+    top: -420px;
+    right: -500px;
+    left: 400px;
+    background-color: hsl(183, 100%, 15%);
+    width: 350px;
+    height: 390px;
+    border-radius: 8px;
+    margin: 30px;
  }
  
  .tip-amount , .total , .person{
