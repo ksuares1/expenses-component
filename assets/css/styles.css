@@ -49,7 +49,7 @@ body{
  
  .tip-calculations{
     position: relative;
-    top: -350px;
+    top: -400px;
     right: -500px;
     left: 400px;
     background-color: hsl(183, 100%, 15%);
@@ -70,6 +70,35 @@ body{
  }
 
 
+.five-percent , .ten-percent , .twenty-five-percent , .fifty-percent{
+  background-color:hsl(183, 100%, 15%);
+  color:hsl(189, 41%, 97%);
+  border-style:none;
+  font-size: 24px;
+  height:35%;
+  border-radius:5px;
+}
+
+.fifteen-percent{
+  background-color:hsl(172, 67%, 45%);
+  color:hsl(183, 100%, 15%);
+  border-style:none;
+  font-size: 24px;
+  height:35%;
+  border-radius:5px;
+  /* font-weight: bold; */
+}
+
+.custom{
+  background-color:hsl(189, 41%, 97%);
+  border-style: none;
+  border-radius:10px;
+  font-size: 24px;
+ font-family: 'Space Mono', monospace; 
+ color:  hsl(183, 100%, 15%);
+ font-weight: 400;
+ height:35%;
+}
 
 
 .reset{
@@ -83,7 +112,7 @@ body{
    justify-content: center;
    border-radius:5px;
    position:relative;
-   padding:0px 0px 0px 0px;
+   padding:0px;
    top:-20px;
    left:-50px;
    font-family: 'Space Mono', monospace;
