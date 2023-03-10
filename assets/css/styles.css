@@ -27,16 +27,24 @@ body{
  }
 
 
- .bill{
-   padding:5px;
+ .bill-info{
+   padding:10px;
+   margin:10px;
  }
  
  h3{
   font-size:20px;
+  color: hsl(186, 14%, 43%);
  }
+
+
  input{
   margin:0 auto;
-  padding:0px;
+  padding:10px;
+  width:95%;
+  border-radius:5px;
+  /* border-style:none; */
+  background-color: hsl(189, 41%, 97%);
  }
  
  .tip-calculations{
