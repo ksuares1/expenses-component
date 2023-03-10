@@ -110,6 +110,18 @@ body{
  height:35%;
 }
 
+.customized{
+  margin:10px;
+}
+
+.num-people{
+  background-image: url("../images/icon-person.svg");
+  background-repeat: no-repeat;
+  top: -10px;
+  position: relative;
+  left: -20px;
+  margin: 10px;
+}
 
 .reset{
    margin:70px;
