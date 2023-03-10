@@ -47,18 +47,27 @@
   color:white;
  }
  
-/* .button{
-   margin:100px;
-} */
+.reset{
+   margin:80px;
+   border-style:none;
+   width:80%;
+   height:15%;
+   background-color:hsl(172, 67%, 45%);
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   border-radius:5px;
+   position:relative;
+   padding: 0px;
+   top:-20px;
+   left:-50px;
+} 
  
  
 .person{
    color:white;
 }
- 
- .reset{
-   background-color:hsl(184, 14%, 56%);
- }
+
  
  
  
