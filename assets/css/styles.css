@@ -18,7 +18,7 @@
    display: flex;
    position: relative;
    top:-10px;
-   left:400px;
+   left:390px;
    right:-220px;
    padding:10px;
    padding-bottom:10px;
@@ -43,6 +43,9 @@
    border-radius:8px;
  }
  
+ .tip-amount , .total , .person{
+  color:white;
+ }
  
 /* .button{
    margin:100px;
