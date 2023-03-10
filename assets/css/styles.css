@@ -41,7 +41,8 @@ body{
  input{
   margin:0 auto;
   padding:10px;
-  width:100%;
+  width:340px;
+  height:20px;
   border-radius:5px;
   border-style:none; 
   background-color: hsl(189, 41%, 97%);
@@ -51,7 +52,7 @@ body{
     position: relative;
     top: -400px;
     right: -500px;
-    left: 415px;
+    left: 440px;
     background-color: hsl(183, 100%, 15%);
     width: 360px;
     height: 390px;
