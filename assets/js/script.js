@@ -1,8 +1,6 @@
-let itemizedBill= document.querySelector(".bill");
-
 let people= document.querySelector(".num-people");
 
-let fiveButton= document.querySelecto(".five-percent");
+let fiveButton= document.querySelector(".five-percent");
 
 let tenButton= document.querySelector(".ten-percent");
 
@@ -16,7 +14,10 @@ let customButton = document.querySelector(".custom");
 
 
 function calculationsApp(){
-
+if(itemizedBill === ""){
+return "";
 }
-
+}
+let itemizedBill = document.querySelector(".bill");
+ itemizedBill.addEventListener("click", calculationsApp),
 calculationsApp();
