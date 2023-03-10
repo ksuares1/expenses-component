@@ -24,7 +24,6 @@ body{
    left:390px;
    right:-220px;
    padding:10px;
-   padding-bottom:10px;
  }
 
 
@@ -32,13 +31,17 @@ body{
    padding:5px;
  }
  
+ h3{
+  font-size:20px;
+ }
  input{
   margin:0 auto;
+  padding:0px;
  }
  
  .tip-calculations{
     position: relative;
-    top: -420px;
+    top: -350px;
     right: -500px;
     left: 400px;
     background-color: hsl(183, 100%, 15%);
@@ -46,6 +49,7 @@ body{
     height: 390px;
     border-radius: 8px;
     margin: 30px;
+    padding:5px;
  }
  
  .tip-amount , .total , .person{
