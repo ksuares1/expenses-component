@@ -175,6 +175,9 @@ body{
   width:65%;
 }
 
+.results{
+  color:white;
+}
 .reset{
    margin:70px;
    border-style:none;
