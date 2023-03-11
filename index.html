@@ -21,23 +21,29 @@
     <!-- Form-->
     <div class="row">
       <div class="col bill-info">
-  <div class="bills">
-       <h3 class="bill-text">Bill</h3>
-       <input type="text" class="bill">
-      </div>
-   
+ 
+     <div class="label-wrapper">
+      <label for="inp-bill">Bill</label>
+       </div>
+      
+   <div class="inp-wrapper">
+    <input class="inp-text" type="text" name="inp-bill" id="inp-bill" placeholder="0.0">
+  </div>
+
+
+
     <div class="tip-selctor">
    <h3> Select Tip %  </h3>  
       <div class="row">
         <div class="col row-one">
-          <button class="five-percent">
+          <button class="five-percent tip">
             5%
           </button>
-          <button class="ten-percent">
+          <button class="ten-percent tip">
             10%
           </button>
           
-          <button class="fifteen-percent">
+          <button class="fifteen-percent tip">
              15%
           </button>
           </div>
@@ -45,17 +51,15 @@
     
       <div class="row">
         <div class="col second-row">
-        <button class="twenty-five-percent">
+        <button class="twenty-five-percent tip">
           25%
         </button>
           
-        <button class="fifty-percent">
+        <button class="fifty-percent tip">
            50%
         </button>
        
-        <button class="custom">
-          Custom
-        </button>
+       <input class="inp-text" type="text" name="inp-tip" id="inp-tip" placeholder="Custom">
        
         </div>
       
@@ -66,10 +70,16 @@
 
 
     <div class="customized">
-    <h3>Number of People</h3>
-    <input type="text" class="num-people">
+      <div class="label-wrapper">
+      <label for="inp-people">Number of People</label>
+      <div class="error-msg">Can't be zero</div>
+      </div>
+      
+      <div class="input-wrapper">
+      <input type="text" class="num-people">
     </div>
-    </div> 
+    </div>
+    
 
     <!-- Second Column -->
     <div class="row">
@@ -106,10 +116,10 @@
     </div>
 
     <!-- Footer -->
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Kimberly Suares</a>.
-    </div>
-    <script src="./assets/js/script.js"></script>
+    </div> -->
+    <script src="./js/script.js"></script>
   </body>
   </html>
