@@ -12,12 +12,17 @@ let fiftyPercentButton = document.querySelector(".fifty-percent");
 
 let customButton = document.querySelector(".custom");
 
-
+// I might have to create nested functions
 function calculationsApp(){
 if(itemizedBill === ""){
 return "";
 }
+function tipPercent(){
+
+}
 }
 let itemizedBill = document.querySelector(".bill");
- itemizedBill.addEventListener("click", calculationsApp),
-calculationsApp();
+ itemizedBill.addEventListener("click", calculationsApp);
+
+
+tipPercent();

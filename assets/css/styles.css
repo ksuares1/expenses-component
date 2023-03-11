@@ -26,6 +26,14 @@ body{
    padding:10px;
  }
 
+ .bill{
+  background-image: url("../images/icon-dollar.svg");
+  background-repeat: no-repeat;
+  margin:5px;
+  position: relative;
+  background-position: left;
+  right:15px
+ }
 
  .bill-info{
    padding:10px;
