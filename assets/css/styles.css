@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
+*{
+  box-sizing:border-box;
+}
 body{
     background:hsl(185, 41%, 84%);
     font-size:24px;
@@ -16,8 +19,8 @@ body{
    background-color: #fff;
    margin:50px;
    border-radius:10px;
-   width:820px;
-   height:460px;
+   width:900px;
+   height:500px;
    display: flex;
    position: relative;
    top:-10px;
@@ -55,12 +58,27 @@ body{
   border-style:none; 
   background-color: hsl(189, 41%, 97%);
  }
+
+
+ .tip-selector{
+  position:relative;
+  top:-10px;
+  left:-25px
+ }
+
+ .select-tips{
+  margin:40px;
+  padding-bottom: 0px;
+  position: relative;
+  top:-10px;
+  left:-20px;
+ }
  
  .tip-calculations{
     position: relative;
     top: -400px;
     right: -500px;
-    left: 440px;
+    left: 480px;
     background-color: hsl(183, 100%, 15%);
     width: 360px;
     height: 390px;
@@ -86,14 +104,18 @@ body{
   background-image: url("../images/icon-dollar.svg");
   background-repeat: no-repeat;
   background-position: left;
-  width:55%;
+  width:65%;
  }
 
+.inp-tip{
+  width:25%;
+}
 
  .inp-text {
     background-color: #f4fafa;
     border: none;
-    width: 17%;
+    width: 34%;
+    height:35%;
     border-radius: 0.5rem;
     color: #00494d;
     font-family: 'Space Mono', monospace;
@@ -149,6 +171,8 @@ body{
   left: -25px;
   margin: 10px;
   background-position: left;
+  height:95%;
+  width:65%;
 }
 
 .reset{
@@ -165,7 +189,7 @@ body{
    top:-20px;
    left:-10px;
    font-family: 'Space Mono', monospace;
-  font-size: 14px;
+  font-size: 24px;
 } 
  
  
@@ -185,6 +209,7 @@ body{
   top:-10px;
   left:10px;
   right:45px;
+  margin: 0 auto;
  }
  
 
