@@ -78,10 +78,10 @@ body{
     position: relative;
     top: -400px;
     right: -500px;
-    left: 480px;
+    left: 430px;
     background-color: hsl(183, 100%, 15%);
-    width: 360px;
-    height: 390px;
+    width: 400px;
+    height: 415px;
     border-radius: 8px;
  }
  
@@ -177,11 +177,18 @@ body{
 
 .results{
   color:white;
+    position: relative;
+    top: -90px;
+    left: 250px; 
+    padding: 40px;
+    right: 45px;
+    font-size: 24px;
 }
 .reset{
-   margin:70px;
+   margin:30px;
+   padding:0px;
    border-style:none;
-   width:75%;
+   width:50%;
    height:15%;
    background-color:hsl(172, 67%, 45%);
    display:flex;
